@@ -1,0 +1,15 @@
+Informações das colunas do dataset:
+
+1: DATA (AAAA-MM-DD)
+2: VENTO: Velocidade média do vento [knots]
+3: IND: Primeiro valor do indicador
+4: CHUVA: Quantidade de precipitação (mm)
+5: IND.1: Valor do segundo indicador
+6: T.MAX: Temperatura Máxima (°C)
+7: IND.2: Valor do terceiro indicador
+8: T.MIN: Temperatura Mínima (°C)
+9: T.MIN.G: 09utc Temperatura Mínima da Grama (°C)
+
+O algoritmo irá aprender a fazer previsão da velocidade do vento, pois:
+
+A previsão confiável da velocidade do vento é um desafio para os meteorologistas. Vento forte devido a tempestades convectivas, causa danos consideráveis ​​(danos florestais em grande escala, interrupção, danos em edifícios/casas, etc.). Eventos convectivos, como tempestades, tornados, grandes granizos e ventos fortes, são riscos naturais que têm o potencial de perturbar a vida cotidiana, especialmente em terrenos complexos que favorecem o início da convecção. Mesmo eventos convectivos comuns produzem ventos fortes que causam danos fatais e caros. Portanto, a previsão da velocidade do vento é uma tarefa importante para obter avisos avançados de clima severo. Este conjunto de dados contém as respostas de um sensor climático que coletou diferentes variáveis ​​climáticas, como temperaturas e precipitação.
