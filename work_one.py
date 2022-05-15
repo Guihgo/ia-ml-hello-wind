@@ -33,7 +33,7 @@ y = df['WIND']
 x = df.drop('WIND', axis= 1)
 
 #Criando os conjuntos de dados de teste e treino
-x_treino, x_teste, y_treino, y_teste = train_test_split(x, y, test_size =0.3, train_size=0.7)
+x_treino, x_teste, y_treino, y_teste = train_test_split(x, y, test_size =0.3)
 
 # Criação do modelo
 modelo_DT = DecisionTreeRegressor()
@@ -41,4 +41,18 @@ modelo_DT = DecisionTreeRegressor()
 # Treina a regressão
 modelo_DT.fit(x_treino, y_treino)
 DT_pred = modelo_DT.predict(x_teste)
+
+# Exercise 5
+
+# Exercise 6
+
+# Acurácia
+print("Acurácia:", modelo_DT.score(x_treino, y_treino)) 
+
+#Precisão
+#print("Precisão:", modelo_DT.score(x_treino, y_treino))
+#Revocação
+#print("Revocação:", modelo_DT.score(x_treino, y_treino))
+#F1-Score
+#print("F1-Score:", modelo_DT.score(x_treino, y_treino))
 
